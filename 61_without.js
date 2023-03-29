@@ -7,6 +7,6 @@ parámetros {...} [values] Los valores a excluir.
 devuelve {Array} Devuelve el nuevo array de valores filtrados.
 
 Ejemplo:
-
+import _ from 'lodash';
 _.without([2, 1, 2, 3], 1, 2);
 devuelve => [3]

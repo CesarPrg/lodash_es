@@ -6,7 +6,7 @@ parámetros {Function} [iteratee=_.identity] La funcion para combinar los valore
 devuelve {Array} Devuelve el nuevo array de elementos agrupados.
 
 Ejemplo:
-
+import _ from 'lodash';
 _.zipWith([1, 2], [10, 20], [100, 200], function(a, b, c) {
   return a + b + c;
 });

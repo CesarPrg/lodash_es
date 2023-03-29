@@ -4,6 +4,6 @@ parámetros {...Array} [arrays] El array a inspeccionar.
 devuelve {Array} Devuelve el nuevo array de elementos combinados.
 
 Ejemplo:
-
+import _ from 'lodash';
 _.union([2], [1, 2]);
 devuelve => [2, 1]

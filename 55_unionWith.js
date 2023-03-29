@@ -7,7 +7,7 @@ parámetros {Function} [comparator] El comparador invocado por cada elemento.
 devuelve {Array} Devuelve el array de elementos combinados.
 
 Ejemplo:
-
+import _ from 'lodash';
 var objects = [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }];
 var others = [{ 'x': 1, 'y': 1 }, { 'x': 1, 'y': 2 }];
 

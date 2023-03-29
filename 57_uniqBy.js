@@ -7,6 +7,6 @@ parámetros {Function} [iteratee=_.identity] El iterador invocado por cada eleme
 devuelve {Array} Devuelve el nuevo array libre de duplicados.
 
 Ejemplo:
-
+import _ from 'lodash';
 _.uniqBy([2.1, 1.2, 2.3], Math.floor);
 devuelve => [2.1, 1.2]

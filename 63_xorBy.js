@@ -6,7 +6,7 @@ parámetros {Function} [iteratee=_.identity] La iteracion invocada por elemento.
 devuelve {Array} Devuelve el nuevo array de valores filtrados.
 
 Ejemplo:
-
+import _ from 'lodash';
 _.xorBy([2.1, 1.2], [2.3, 3.4], Math.floor);
 devuelve => [1.2, 3.4]
 

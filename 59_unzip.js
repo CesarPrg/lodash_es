@@ -4,7 +4,7 @@ parámetros {Array} array El array de elementos agrupados para procesar.
 devuelve {Array} Devuelve el nuevo array de argumentos reagrupados.
 
 Ejemplo:
-
+import _ from 'lodash';
 var zipped = _.zip(['a', 'b'], [1, 2], [true, false]);
 devuelve => [['a', 1, true], ['b', 2, false]]
  

@@ -6,7 +6,7 @@ parámetros {Function} [iteratee=_.identity] La funcion para reagrupar los valor
 devuelve {Array} El array de elementos reagrupados.
 
 Ejemplo:
-
+import _ from 'lodash';
 var zipped = _.zip([1, 2], [10, 20], [100, 200]);
 devuelve => [[1, 10, 100], [2, 20, 200]]
 

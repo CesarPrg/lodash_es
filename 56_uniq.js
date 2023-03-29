@@ -5,6 +5,6 @@ parámetros {Array} array El array a inspeccionar.
 devuelve {Array} Devuelve el array libre de duplicados.
 
 Ejemplo:
-
+import _ from 'lodash';
 _.uniq([2, 1, 2]);
 devuelve => [2, 1]

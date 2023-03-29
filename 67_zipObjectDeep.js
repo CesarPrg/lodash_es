@@ -5,6 +5,6 @@ parámetros {Array} [values=[]] Los valores de las propiedades.
 devuelve {Object} Devuelve el nuevo objeto.
 
 Ejemplo:
-
+import _ from 'lodash';
 _.zipObjectDeep(['a.b[0].c', 'a.b[1].d'], [1, 2]);
 devuelve => { 'a': { 'b': [{ 'c': 1 }, { 'd': 2 }] } }

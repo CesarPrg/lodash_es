@@ -7,7 +7,7 @@ parámetros {Function} [comparator] El comparador invocado por elemento.
 devuelve {Array} Devuelve el nuevo array libre de duplicados.
 
 Ejemplo:
-
+import _ from 'lodash';
 var objects = [{ 'x': 1, 'y': 2 }, { 'x': 2, 'y': 1 }, { 'x': 1, 'y': 2 }];
  
 _.uniqWith(objects, _.isEqual);

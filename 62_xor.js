@@ -5,6 +5,6 @@ parámetros {...Array} [arrays] El array a  inspeccionar.
 devuelve {Array} Devuelve el nuevo array de elementos filtrados.
 
 Ejemplo:
-
+import _ from 'lodash';
 _.xor([2, 1], [2, 3]);
 devuelve => [1, 3]
